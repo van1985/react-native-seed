@@ -1,0 +1,41 @@
+{
+  "name": "rn_poc",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "adb": "^0.2.0",
+    "es6-promise": "^4.2.4",
+    "react": "^16.0.0-alpha.12",
+    "react-native": "^0.50.3",
+    "react-native-button": "1.2.0",
+    "react-native-cookies": "2.0.0",
+    "react-native-gifted-listview": "0.0.15",
+    "react-native-i18n": "^2.0.6",
+    "react-native-navbar": "^2.0.1",
+    "react-native-swiper": "^1.5.10",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "styled-components": "^2.1.2"
+  },
+  "devDependencies": {
+    "axios": "^0.17.1",
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "^2.1.0",
+    "frisbee": "^1.6.4",
+    "i18n-js": "^3.0.1",
+    "install": "^0.10.4",
+    "jest": "20.0.4",
+    "npm": "^5.6.0",
+    "react-test-renderer": "16.0.0-alpha.12",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
