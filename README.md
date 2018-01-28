@@ -15,3 +15,5 @@ Pending
 - ESLINT
 - Unit Testing
 - Internacionalizacion
+- Save data on device -- (Realm?)
+- Crash Reporting & Logs
