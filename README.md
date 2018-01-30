@@ -10,7 +10,7 @@ https://github.com/evgenyrodionov/redux-logger
 https://github.com/niftylettuce/frisbee
 
 Pending 
-- Navigation
+- Navigation - react-native-navigation
 - Moment - Date Manipulation Library
 - ESLINT
 - Unit Testing
