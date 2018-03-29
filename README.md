@@ -8,7 +8,6 @@ MVP
 - Fabric
 - Date-fns
 - Eslint
-- I18n
 - Unit Testing [Jest]
 - I18n
 - CI
