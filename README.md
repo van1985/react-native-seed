@@ -1,19 +1,29 @@
 # react-native-seed [WIP]
 
-Draft
-- redux - Manage state
-- redux-thunk
-https://github.com/gaearon/redux-thunk
-- redux-logger
-https://github.com/evgenyrodionov/redux-logger
-- frisbee - API wrapper
-https://github.com/niftylettuce/frisbee
+MVP
+- React-native
+- Redux
+- Saga
+- Crashlytics
+- Fabric
+- Date-fns
+- Eslint
+- I18n
+- Unit Testing [Jest]
+- I18n
+- CI
+- Releases [Fastlane + TestFairy]
 
 Pending 
-- Navigation - react-native-navigation
-- Moment - Date Manipulation Library
-- ESLINT
-- Unit Testing
-- Internacionalizacion
-- Save data on device -- (Realm?)
-- Crash Reporting & Logs
+- Realm
+- E2E
+- Accessibility
+- Dynamic JS Bundle
+
+Seed Functionality (Default)
+- Login
+- Create Account
+- Main Page - List
+- Navigation
+- Call a service
+- Unit testing example
