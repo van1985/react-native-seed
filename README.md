@@ -7,7 +7,7 @@ MVP
 - Crashlytics
 - Fabric
 - Date-fns
-- Eslint
+- Eslint + prettier
 - Unit Testing [Jest]
 - I18n
 - CI
