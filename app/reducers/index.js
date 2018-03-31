@@ -1,6 +1,8 @@
 import { combineReducers } from 'redux';
-import * as recipesReducer from './recipes'
+import appData from './dataReducer'
 
-export default combineReducers(Object.assign(
-  recipesReducer
-));
+const rootReducer= combineReducers({
+  appData
+});
+
+export default rootReducer

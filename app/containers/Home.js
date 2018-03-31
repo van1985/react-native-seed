@@ -11,6 +11,7 @@ const {
     StyleSheet,
     Button
 } = ReactNative
+import { requestApiData } from "../actions";
 
 class Home extends Component{
 
@@ -18,15 +19,20 @@ class Home extends Component{
         super(props);
         this.state = { ingredientsInput: ''}
     }
+
+    componentDidMount() {
+        //this.props.requestApiData();
+    }
     
     searchPressed(){
+        /*
         this.setState({searching:true});
         this.props.fetchRecipes(this.state.ingredientsInput);
-        this.setState({searching:false});
+        this.setState({searching:false});*/
     }
 
     recipes(){
-        return Object.keys(this.props.searchedRecipes).map( key => this.props.searchedRecipes[key]);
+        //return Object.keys(this.props.searchedRecipes).map( key => this.props.searchedRecipes[key]);
     }
     
     render(){
@@ -35,27 +41,8 @@ class Home extends Component{
                 <TextInput style={ appStyle.searchInput}
                     returnKeyType="search"
                     placeholder="Ingredientes (comma delimited)"
-                    onChangeText={ (ingredientsInput) => this.setState({ingredientsInput})}
-                    value={this.state.ingredientsInput}
                 />
             </View>
-            <Button
-            onPress={ () => this.searchPressed()}
-            title="Search"
-            color="#841584"
-            accessibilityLabel="Learn more about this purple button"
-          />
-            <ScrollView style={appStyle.scrollSection}>
-                {!this.state.searching && this.recipes().map( (recipe) => {
-                    return <View key={recipe.trackId}>
-                        <Image source= {{ uri:recipe.artworkUrl100 }} style={appStyle.resultImage} />
-                        <Text style={ appStyle.resultText }> {recipe.trackName} </Text>
-                        <Text style={ appStyle.resultText }> {recipe.collectionName} </Text>
-                        <Text style={ appStyle.resultText }> {recipe.artistName} </Text>
-                    </View>
-                })}
-            { this.state.searching ? <Text> Searching...</Text> : null }
-            </ScrollView>
         </View>
     }
 }
