@@ -2,7 +2,7 @@ import React , {Component} from 'react';
 import { connect } from 'react-redux';
 import {ActionCreators} from '../actions';
 import { bindActionCreators } from 'redux';
-import Home from './Home';
+import Home from './MainPage';
 
 class AppContainer extends Component {
 
