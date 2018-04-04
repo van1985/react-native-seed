@@ -1,8 +1,8 @@
 import React from 'react'
 import { TouchableHighlight, View, Text, StyleSheet } from 'react-native'
-
+import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux'
-import { fetchData } from '../actions'
+import { ActionCreators } from '../actions'
 
 let styles
 
@@ -12,8 +12,14 @@ const MainPage = (props) => {
     text,
     button,
     buttonText,
-    mainContent
+    mainContent,
+    appData
   } = styles
+
+  function componentDidMount() {
+    console.warn('paso');
+    this.props.actions.fetchData();
+  }
 
   return (
     <View style={container}>
@@ -67,7 +73,7 @@ function mapStateToProps (state) {
 
 function mapDispatchToProps (dispatch) {
   return {
-    fetchData: () => dispatch(fetchData())
+    factions: bindActionCreators(ActionCreators, dispatch),
   }
 }
 
