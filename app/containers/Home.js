@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import { connect } from 'react-redux';
 import ReactNative from 'react-native'
+import { bindActionCreators } from 'redux';
+import { ActionCreators } from '../actions'
 const {
     ScrollView,
     View,
@@ -21,21 +23,15 @@ class Home extends Component{
     }
 
     componentDidMount() {
-        //this.props.requestApiData();
-    }
-    
-    searchPressed(){
-        /*
-        this.setState({searching:true});
-        this.props.fetchRecipes(this.state.ingredientsInput);
-        this.setState({searching:false});*/
-    }
-
-    recipes(){
-        //return Object.keys(this.props.searchedRecipes).map( key => this.props.searchedRecipes[key]);
+        const { dispatch } = this.props;
+        this.props.actions.fetchData();
     }
     
     render(){
+        const { appData } = this.props;
+        let gender;
+        if (appData.dataFetched)
+            gender = <Text>{appData.data.gender}</Text>;
         return <View style={appStyle.scene}>
             <View style={appStyle.searchSection}>
                 <TextInput style={ appStyle.searchInput}
@@ -43,6 +39,7 @@ class Home extends Component{
                     placeholder="Ingredientes (comma delimited)"
                 />
             </View>
+            {gender}
         </View>
     }
 }
@@ -87,10 +84,19 @@ const appStyle = StyleSheet.create({
     }
   });
 
-function mapStateToProps(state) {
+  function mapStateToProps (state) {
     return {
-      searchedRecipes: state.searchedRecipes
-    };
+        appData: state.appData
+    }
+  }
+
+  function mapDispatchToProps (dispatch) {
+    return {
+      actions: bindActionCreators(ActionCreators, dispatch),
+    }
   }
   
-  export default connect(mapStateToProps)(Home);
+  export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+  )(Home)
