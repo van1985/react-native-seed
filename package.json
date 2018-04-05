@@ -17,12 +17,13 @@
     "react-native-i18n": "^2.0.6",
     "react-native-navbar": "^2.0.1",
     "react-native-swiper": "^1.5.10",
+    "react-navigation": "^1.5.11",
     "react-redux": "^5.0.6",
     "redux": "^3.7.2",
     "redux-logger": "^3.0.6",
+    "redux-saga": "^0.16.0",
     "redux-thunk": "^2.2.0",
-    "styled-components": "^2.1.2",
-    "redux-saga": "^0.16.0"
+    "styled-components": "^2.1.2"
   },
   "devDependencies": {
     "axios": "^0.17.1",
