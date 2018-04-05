@@ -562,7 +562,6 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* rn_pocTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
-				E1F876402075BB5C001640B1 /* Recovered References */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -594,15 +593,6 @@
 				9C9ED4B9201CBF1100372F6F /* libRNI18n-tvOS.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		E1F876402075BB5C001640B1 /* Recovered References */ = {
-			isa = PBXGroup;
-			children = (
-				EFB163755E8F4FE682E31663 /* libRNCookieManagerIOS.a */,
-				3931DA8AC6DA48518A282BFF /* libRNI18n.a */,
-			);
-			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
