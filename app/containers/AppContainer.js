@@ -9,4 +9,4 @@ class AppContainer extends Component {
     }
 }
 
-export default connect(() =>  {}) (AppContainer);
+export default connect(() =>  ({})) (AppContainer);
