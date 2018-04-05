@@ -6,7 +6,7 @@ const types = {
 
 function fetchData() {
   return {
-    type: FETCHING_DATA
+    type: types.FETCHING_DATA
   }
 }
 

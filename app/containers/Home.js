@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import ReactNative from 'react-native'
 import { bindActionCreators } from 'redux';
@@ -14,17 +14,17 @@ const {
     Button
 } = ReactNative
 
-class Home extends Component{
+class Home extends Component {
 
-    constructor(props){
+    constructor(props) {
         super(props);
     }
 
     componentDidMount() {
         this.props.fetchData();
     }
-    
-    render(){
+
+    render() {
         const { appData } = this.props;
         let gender;
         if (appData.dataFetched)
@@ -37,24 +37,24 @@ class Home extends Component{
 
 const appStyle = StyleSheet.create({
     scene: {
-      marginTop: 10,
-      flex:1
+        marginTop: 10,
+        flex: 1
     }
-  });
+});
 
-  function mapStateToProps (state) {
+function mapStateToProps(state) {
     return {
-        appData: state.appData
+        appData: state.app
     }
-  }
+}
 
-  function mapDispatchToProps (dispatch) {
+function mapDispatchToProps(dispatch) {
     return {
-      fetchData: bindActionCreators(DataActions.fetchData, dispatch),
+        fetchData: bindActionCreators(DataActions.fetchData, dispatch),
     }
-  }
+}
 
-  export default connect(
+export default connect(
     mapStateToProps,
     mapDispatchToProps
-  )(Home)
+)(Home)
