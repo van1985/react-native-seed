@@ -1,7 +1,5 @@
-import React , {Component} from 'react';
+import React , { Component } from 'react';
 import { connect } from 'react-redux';
-import {ActionCreators} from '../actions';
-import { bindActionCreators } from 'redux';
 import Home from './Home';
 
 class AppContainer extends Component {
@@ -11,8 +9,4 @@ class AppContainer extends Component {
     }
 }
 
-function mapDispatchToProps(dispatch){
-    return bindActionCreators(ActionCreators, dispatch);
-}
-
-export default connect( (state) =>  { return {} }, mapDispatchToProps) (AppContainer);
+export default connect(() =>  {}) (AppContainer);
