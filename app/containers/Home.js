@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import { connect } from 'react-redux';
 import ReactNative from 'react-native'
 import { bindActionCreators } from 'redux';
-import { ActionCreators } from '../actions'
+import DataActions from '../store/data/actions'
 const {
     ScrollView,
     View,
@@ -21,7 +21,7 @@ class Home extends Component{
     }
 
     componentDidMount() {
-        this.props.actions.fetchData();
+        this.props.fetchData();
     }
     
     render(){
@@ -50,7 +50,7 @@ const appStyle = StyleSheet.create({
   
   function mapDispatchToProps (dispatch) {
     return {
-      actions: bindActionCreators(ActionCreators, dispatch),
+      fetchData: bindActionCreators(DataActions.fetchData, dispatch),
     }
   }
   
