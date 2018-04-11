@@ -1,6 +1,6 @@
 import { TabNavigator } from 'react-navigation';
 import DashboardScene from './dashboard';
-import FriendsScene from './friends';
+import FriendsFlow from './friendsFlow/navigator';
 import ProfileScene from './profile';
 
 export default TabNavigator({
@@ -12,7 +12,7 @@ export default TabNavigator({
     }
   },
   friends: {
-    screen: FriendsScene,
+    screen: FriendsFlow,
     navigationOptions: {
       swipeEnabled: true,
       title: 'Friends'
