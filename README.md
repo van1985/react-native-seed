@@ -2,7 +2,7 @@
 
 MVP
 - React-native
-- Redux 
+- Redux
 - Saga
 - Crashlytics
 - Fabric
