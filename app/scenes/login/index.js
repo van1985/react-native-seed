@@ -25,7 +25,7 @@ class Home extends Component {
   }
 
   goToDemo = () => {
-    this.props.navigation.navigate('demo');
+    this.props.navigation.navigate('home');
   }
 
   render() {
@@ -37,9 +37,8 @@ class Home extends Component {
       
     return (
       <View style={styles.scene}>
-        {gender}
         <Button
-          title="Try me!"
+          title="Fake login!"
           onPress={this.goToDemo}
         />
       </View>
