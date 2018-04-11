@@ -1,19 +1,20 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { StackNavigator } from 'react-navigation';
-import HomeScene from '../scenes/home';
-import DemoScene from '../scenes/demo';
+import { SwitchNavigator } from 'react-navigation';
+import LoginScene from '../scenes/login';
+import HomeFlow from '../scenes/homeFlow/navigator';
 
 /**
  * Main Stack Navigation. Used to display the app header
  */
-export default StackNavigator({
-  home: {
-    screen: HomeScene
+export default SwitchNavigator({
+  login: {
+    screen: LoginScene
   },
-  demo: {
-    screen: DemoScene
+  home: {
+    screen: HomeFlow
   }
 }, {
-  initialRouteName: 'home'
+  initialRouteName: 'login',
+  headerMode: 'none'
 });
