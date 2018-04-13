@@ -13,7 +13,7 @@ Crashlytics.setBool('has_posted', true);
 Crashlytics.setString('organization', 'Globant');
 
 // Forces a native crash for testing
-Crashlytics.crash();
+// Crashlytics.crash();
 
 const {
     ScrollView,
