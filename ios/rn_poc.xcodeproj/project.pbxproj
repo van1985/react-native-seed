@@ -40,6 +40,7 @@
 		7AE1BE44207C02800053C64D /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE1BE42207C02800053C64D /* Crashlytics.framework */; };
 		7AE1BE45207C02800053C64D /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE1BE43207C02800053C64D /* Fabric.framework */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		B202B8B64A7245A5BC118A18 /* libSMXCrashlytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74474AA275304DB08D5FFDF0 /* libSMXCrashlytics.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -225,6 +226,20 @@
 			remoteGlobalIDString = 134814201AA4EA6300B7C361;
 			remoteInfo = RCTLinking;
 		};
+		7AE1BE7B208105240053C64D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4272D5BBA95540B0A2D7F967 /* SMXCrashlytics.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D8D9DB831C6D03DB009FBC0E;
+			remoteInfo = SMXCrashlytics;
+		};
+		7AE1BE7D208105240053C64D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4272D5BBA95540B0A2D7F967 /* SMXCrashlytics.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6463C84C1EBA12A60095B8CD;
+			remoteInfo = "SMXCrashlytics-tvOS";
+		};
 		832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */;
@@ -334,8 +349,10 @@
 		2D02E47B1E0B4A5D006451C7 /* rn_poc-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rn_poc-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* rn_poc-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rn_poc-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3931DA8AC6DA48518A282BFF /* libRNI18n.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNI18n.a; sourceTree = "<group>"; };
+		4272D5BBA95540B0A2D7F967 /* SMXCrashlytics.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = SMXCrashlytics.xcodeproj; path = "../node_modules/react-native-fabric/ios/SMXCrashlytics.xcodeproj"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		6A5871CDC39B419CB2EDAAEC /* RNI18n.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNI18n.xcodeproj; path = "../node_modules/react-native-i18n/ios/RNI18n.xcodeproj"; sourceTree = "<group>"; };
+		74474AA275304DB08D5FFDF0 /* libSMXCrashlytics.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libSMXCrashlytics.a; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		7AE1BE42207C02800053C64D /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		7AE1BE43207C02800053C64D /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
@@ -372,6 +389,7 @@
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				4BE3F40AA56948ED8D3EC329 /* libRNCookieManagerIOS.a in Frameworks */,
 				06DEDB36166D48DB85F6516E /* libRNI18n.a in Frameworks */,
+				B202B8B64A7245A5BC118A18 /* libSMXCrashlytics.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,8 +555,18 @@
 			children = (
 				EFB163755E8F4FE682E31663 /* libRNCookieManagerIOS.a */,
 				3931DA8AC6DA48518A282BFF /* libRNI18n.a */,
+				74474AA275304DB08D5FFDF0 /* libSMXCrashlytics.a */,
 			);
 			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		7AE1BE77208105240053C64D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AE1BE7C208105240053C64D /* libSMXCrashlytics.a */,
+				7AE1BE7E208105240053C64D /* libSMXCrashlytics.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -557,6 +585,7 @@
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
 				8D2FD5238D544B399AD751D0 /* RNCookieManagerIOS.xcodeproj */,
 				6A5871CDC39B419CB2EDAAEC /* RNI18n.xcodeproj */,
+				4272D5BBA95540B0A2D7F967 /* SMXCrashlytics.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -777,6 +806,10 @@
 					ProductGroup = 9C9ED47E201CBF1000372F6F /* Products */;
 					ProjectRef = 6A5871CDC39B419CB2EDAAEC /* RNI18n.xcodeproj */;
 				},
+				{
+					ProductGroup = 7AE1BE77208105240053C64D /* Products */;
+					ProjectRef = 4272D5BBA95540B0A2D7F967 /* SMXCrashlytics.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -955,6 +988,20 @@
 			fileType = archive.ar;
 			path = libRCTLinking.a;
 			remoteRef = 78C398B81ACF4ADC00677621 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7AE1BE7C208105240053C64D /* libSMXCrashlytics.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSMXCrashlytics.a;
+			remoteRef = 7AE1BE7B208105240053C64D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7AE1BE7E208105240053C64D /* libSMXCrashlytics.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSMXCrashlytics.a;
+			remoteRef = 7AE1BE7D208105240053C64D /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		832341B51AAA6A8300B99B32 /* libRCTText.a */ = {
@@ -1196,12 +1243,14 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-cookies/RNCookieManagerIOS",
 					"$(SRCROOT)/../node_modules/react-native-i18n/ios",
+					"$(SRCROOT)/../node_modules/react-native-fabric/ios/SMXCrashlytics",
 				);
 				INFOPLIST_FILE = rn_pocTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
@@ -1223,12 +1272,14 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-cookies/RNCookieManagerIOS",
 					"$(SRCROOT)/../node_modules/react-native-i18n/ios",
+					"$(SRCROOT)/../node_modules/react-native-fabric/ios/SMXCrashlytics",
 				);
 				INFOPLIST_FILE = rn_pocTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
@@ -1255,6 +1306,7 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-cookies/RNCookieManagerIOS",
 					"$(SRCROOT)/../node_modules/react-native-i18n/ios",
+					"$(SRCROOT)/../node_modules/react-native-fabric/ios/SMXCrashlytics",
 				);
 				INFOPLIST_FILE = rn_poc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1281,6 +1333,7 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-cookies/RNCookieManagerIOS",
 					"$(SRCROOT)/../node_modules/react-native-i18n/ios",
+					"$(SRCROOT)/../node_modules/react-native-fabric/ios/SMXCrashlytics",
 				);
 				INFOPLIST_FILE = rn_poc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1310,11 +1363,13 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-cookies/RNCookieManagerIOS",
 					"$(SRCROOT)/../node_modules/react-native-i18n/ios",
+					"$(SRCROOT)/../node_modules/react-native-fabric/ios/SMXCrashlytics",
 				);
 				INFOPLIST_FILE = "rn_poc-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
@@ -1346,11 +1401,13 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-cookies/RNCookieManagerIOS",
 					"$(SRCROOT)/../node_modules/react-native-i18n/ios",
+					"$(SRCROOT)/../node_modules/react-native-fabric/ios/SMXCrashlytics",
 				);
 				INFOPLIST_FILE = "rn_poc-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
@@ -1383,6 +1440,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.rn_poc-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1407,6 +1465,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);

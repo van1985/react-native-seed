@@ -1,6 +1,20 @@
 import React, {Component} from 'react';
 import { connect } from 'react-redux';
 import ReactNative from 'react-native'
+
+import Fabric from 'react-native-fabric';
+const { Crashlytics } = Fabric;
+
+// crashlytics config
+Crashlytics.setUserName('daniel llach');
+Crashlytics.setUserEmail('daniel.llach@globant.com');
+Crashlytics.setUserIdentifier('1234');
+Crashlytics.setBool('has_posted', true);
+Crashlytics.setString('organization', 'Globant');
+
+// Forces a native crash for testing
+Crashlytics.crash();
+
 const {
     ScrollView,
     View,
@@ -18,7 +32,7 @@ class Home extends Component{
         super(props);
         this.state = { ingredientsInput: ''}
     }
-    
+
     searchPressed(){
         this.setState({searching:true});
         this.props.fetchRecipes(this.state.ingredientsInput);
@@ -28,7 +42,7 @@ class Home extends Component{
     recipes(){
         return Object.keys(this.props.searchedRecipes).map( key => this.props.searchedRecipes[key]);
     }
-    
+
     render(){
         return <View style={appStyle.scene}>
             <View style={appStyle.searchSection}>
@@ -105,5 +119,5 @@ function mapStateToProps(state) {
       searchedRecipes: state.searchedRecipes
     };
   }
-  
+
   export default connect(mapStateToProps)(Home);
