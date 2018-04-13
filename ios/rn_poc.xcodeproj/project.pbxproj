@@ -642,6 +642,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		E1F876402075BB5C001640B1 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				EFB163755E8F4FE682E31663 /* libRNCookieManagerIOS.a */,
+				3931DA8AC6DA48518A282BFF /* libRNI18n.a */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
