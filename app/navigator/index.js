@@ -18,5 +18,3 @@ export default SwitchNavigator({
   initialRouteName: 'login',
   headerMode: 'none'
 });
-
-
