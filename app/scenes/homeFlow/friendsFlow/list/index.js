@@ -25,7 +25,7 @@ const friends = [
   }
 ];
 
-class Demo extends Component {
+class FriendListScene extends Component {
 
   static navigationOptions = {
     header: null  
@@ -53,4 +53,4 @@ class Demo extends Component {
   }
 }
 
-export default Demo;
+export default FriendListScene;

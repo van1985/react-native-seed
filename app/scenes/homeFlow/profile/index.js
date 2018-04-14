@@ -6,7 +6,7 @@ import {
 
 import styles from './styles';
 
-class Demo extends Component {
+class ProfileScene extends Component {
 
   render() {
       
@@ -20,4 +20,4 @@ class Demo extends Component {
   }
 }
 
-export default Demo;
+export default ProfileScene;
