@@ -6,7 +6,7 @@ import {
 
 import styles from './styles';
 
-class Demo extends Component {
+class FriendDetailScene extends Component {
 
   static navigationOptions = ({navigation}) => {
     const params = navigation.state.params;
@@ -29,4 +29,4 @@ class Demo extends Component {
   }
 }
 
-export default Demo;
+export default FriendDetailScene;

@@ -11,7 +11,8 @@ import DataActions from '../../store/data/actions';
 
 import styles from './styles';
 
-class Home extends Component {
+class LoginScene extends Component {
+
   static navigationOptions = {
     title: 'Home',
   }
@@ -67,5 +68,5 @@ function mapDispatchToProps(dispatch) {
 
 export default connect(
   mapStateToProps,
-  mapDispatchToProps,
-)(Home);
+  mapDispatchToProps
+)(LoginScene)
