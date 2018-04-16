@@ -3,6 +3,7 @@ package com.rn_poc;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.smixx.fabric.FabricPackage;
 import com.psykar.cookiemanager.CookieManagerPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
@@ -24,7 +25,9 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-            new CookieManagerPackage()
+            new FabricPackage(),
+            new CookieManagerPackage(),
+            new RNI18nPackage() // <-- Add it to the packages list
       );
     }
   };
