@@ -12,7 +12,6 @@ import DataActions from '../../store/data/actions';
 import styles from './styles';
 
 class LoginScene extends Component {
-
   static navigationOptions = {
     title: 'Home',
   }
@@ -38,12 +37,15 @@ class LoginScene extends Component {
           title="Fake login!"
           onPress={this.goToDemo}
         />
+        <Text>
+          {gender}
+        </Text>
       </View>
     );
   }
 }
 
-Home.propTypes = {
+LoginScene.propTypes = {
   navigation: PropTypes.shape({
     navigate: PropTypes.func.isRequired,
   }).isRequired,
@@ -68,5 +70,5 @@ function mapDispatchToProps(dispatch) {
 
 export default connect(
   mapStateToProps,
-  mapDispatchToProps
-)(LoginScene)
+  mapDispatchToProps,
+)(LoginScene);
