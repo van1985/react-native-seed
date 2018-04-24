@@ -29,7 +29,7 @@ class LoginScene extends Component {
 
   render() {
     const { appData } = this.props;
-    let gender;
+    let gender; // eslint-disable-line 
     if (appData.dataFetched) {
       gender = <Text> {appData.data.gender} </Text>;
     }
@@ -59,9 +59,6 @@ class LoginScene extends Component {
             </Text>
           </TouchableHighlight>
         </View>
-        <Text>
-          {gender}
-        </Text>
       </View>
     );
   }
