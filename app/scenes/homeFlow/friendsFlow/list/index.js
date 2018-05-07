@@ -1,47 +1,143 @@
 import React, { Component } from 'react';
-import {
-  View,
-  Text
-} from 'react-native';
+import PropTypes from 'prop-types';
+import { View } from 'react-native';
 import TouchableList from '../../../../components/touchableList';
 
 import styles from './styles';
 
 const friends = [
   {
-    label: 'Noam Chomsky'
+    label: 'Noam Chomsky',
+    telephone: '45678532',
+    email: 'n.chomsky@globant.com',
+    technology: 'Web UI Developer',
+    seniority: 'SSr',
+    city: 'Mar del Plata',
+    state: 'Buenos Aires',
+    country: 'Argentina',
+    birthdate: '02/12/1985',
+    legalId: '29001090',
+    studio: 'UI Engineering',
+
   },
   {
-    label: 'René Descartes'
+    label: 'René Descartes',
+    telephone: '45678532',
+    email: 'n.chomsky@globant.com',
+    technology: 'Web UI Developer',
+    seniority: 'SSr',
+    city: 'Mar del Plata',
+    state: 'Buenos Aires',
+    country: 'Argentina',
+    birthdate: '02/12/1985',
+    legalId: '29001090',
+    studio: 'UI Engineering',
   },
   {
-    label: 'Aristotle'
+    label: 'Aristotle',
+    telephone: '45678532',
+    email: 'n.chomsky@globant.com',
+    technology: 'Web UI Developer',
+    seniority: 'SSr',
+    city: 'Mar del Plata',
+    state: 'Buenos Aires',
+    country: 'Argentina',
+    birthdate: '02/12/1985',
+    legalId: '29001090',
+    studio: 'UI Engineering',
   },
   {
-    label: 'Thomas Huxley'
+    label: 'Thomas Huxley',
+    telephone: '45678532',
+    email: 'n.chomsky@globant.com',
+    technology: 'Web UI Developer',
+    seniority: 'SSr',
+    city: 'Mar del Plata',
+    state: 'Buenos Aires',
+    country: 'Argentina',
+    birthdate: '02/12/1985',
+    legalId: '29001090',
+    studio: 'UI Engineering',
   },
   {
-    label: 'Alan Turing'
-  }
+    label: 'Alan Turing',
+    telephone: '45678532',
+    email: 'n.chomsky@globant.com',
+    technology: 'Web UI Developer',
+    seniority: 'SSr',
+    city: 'Mar del Plata',
+    state: 'Buenos Aires',
+    country: 'Argentina',
+    birthdate: '02/12/1985',
+    legalId: '29001090',
+    studio: 'UI Engineering',
+  },
+  {
+    label: 'Albert Einstein',
+    telephone: '45678532',
+    email: 'n.chomsky@globant.com',
+    technology: 'Web UI Developer',
+    seniority: 'SSr',
+    city: 'Mar del Plata',
+    state: 'Buenos Aires',
+    country: 'Argentina',
+    birthdate: '02/12/1985',
+    legalId: '29001090',
+    studio: 'UI Engineering',
+  },
+  {
+    label: 'Pablo Picasso',
+    telephone: '45678532',
+    email: 'n.chomsky@globant.com',
+    technology: 'Web UI Developer',
+    seniority: 'SSr',
+    city: 'Mar del Plata',
+    state: 'Buenos Aires',
+    country: 'Argentina',
+    birthdate: '02/12/1985',
+    legalId: '29001090',
+    studio: 'UI Engineering',
+  },
+  {
+    label: 'Neil Amstrong',
+    telephone: '45678532',
+    email: 'n.chomsky@globant.com',
+    technology: 'Web UI Developer',
+    seniority: 'SSr',
+    city: 'Mar del Plata',
+    state: 'Buenos Aires',
+    country: 'Argentina',
+    birthdate: '02/12/1985',
+    legalId: '29001090',
+    studio: 'UI Engineering',
+  },
 ];
 
 class FriendListScene extends Component {
-
   static navigationOptions = {
-    header: null  
+    header: null,
   }
 
   onFriendPress = (friend) => {
     this.props.navigation.navigate(
       'friendDetails',
       {
-        friendName: friend.label
-      }
-    )
+        friendName: friend.label,
+        friendTelephone: friend.telephone,
+        friendEmail: friend.email,
+        friendTechnology: friend.technology,
+        friendSeniority: friend.seniority,
+        friendCity: friend.city,
+        friendState: friend.state,
+        friendCountry: friend.country,
+        friendBirthdate: friend.birthdate,
+        friendLegalId: friend.legalId,
+        friendStudio: friend.studio,
+      },
+    );
   }
 
   render() {
-      
     return (
       <View style={styles.scene}>
         <TouchableList
@@ -52,5 +148,12 @@ class FriendListScene extends Component {
     );
   }
 }
+
+FriendListScene.propTypes = {
+  navigation: PropTypes.shape({
+    navigate: PropTypes.func.isRequired,
+  }).isRequired,
+};
+
 
 export default FriendListScene;
