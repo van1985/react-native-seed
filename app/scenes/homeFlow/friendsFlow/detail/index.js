@@ -20,7 +20,7 @@ class FriendDetailScene extends Component {
 
   InfoBlock(item) {
     return (
-      <View style={styles.detailContainer}>
+      <View style={styles.detailContainer} key={item.value}>
         <Text style={styles.nameText}>
           {item.name}
         </Text>
@@ -44,7 +44,9 @@ class FriendDetailScene extends Component {
 
 FriendDetailScene.propTypes = {
   navigation: PropTypes.shape({
-    state: PropTypes.func.isRequired,
+    state: PropTypes.shape({
+      params: PropTypes.object.isRequired,
+    }),
   }).isRequired,
 };
 

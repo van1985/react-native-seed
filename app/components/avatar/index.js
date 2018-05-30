@@ -43,7 +43,11 @@ const Avatar = ({ width, height, imageURI }) => {
 Avatar.propTypes = {
   width: PropTypes.number.isRequired,
   height: PropTypes.number.isRequired,
-  imageURI: PropTypes.string.isRequired,
+  imageURI: PropTypes.string,
+};
+
+Avatar.defaultProps = {
+  imageURI: '',
 };
 
 export default Avatar;

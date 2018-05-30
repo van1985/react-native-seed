@@ -33,7 +33,7 @@ const SkillDetails = ({ percentage, skillName }) => {
 };
 
 SkillDetails.propTypes = {
-  percentage: PropTypes.string.isRequired,
+  percentage: PropTypes.number.isRequired,
   skillName: PropTypes.string.isRequired,
 };
 

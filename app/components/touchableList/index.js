@@ -69,7 +69,10 @@ class TouchableList extends Component {
 
 TouchableList.propTypes = {
   onPress: PropTypes.func.isRequired,
-  data: PropTypes.shape({}).isRequired,
+  data: PropTypes.arrayOf(PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    value: PropTypes.string.isRequired,
+  })).isRequired,
 };
 
 export default TouchableList;
