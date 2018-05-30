@@ -72,7 +72,7 @@ TouchableList.propTypes = {
   data: PropTypes.arrayOf(PropTypes.shape({
     name: PropTypes.string.isRequired,
     value: PropTypes.string.isRequired,
-  })).isRequired,
+  }).isRequired).isRequired,
 };
 
 export default TouchableList;

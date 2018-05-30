@@ -45,7 +45,6 @@ class FriendDetailScene extends Component {
 FriendDetailScene.propTypes = {
   navigation: PropTypes.shape({
     navigate: PropTypes.func.isRequired,
-    state: PropTypes.objectOf(PropTypes.arrayOf(PropTypes.objectOf(PropTypes.string))),
   }).isRequired,
 };
 
