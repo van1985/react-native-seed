@@ -10,7 +10,7 @@ import styles from './styles';
 
 class FriendDetailScene extends Component {
   static navigationOptions = ({ navigation }) => {
-    const { params } = navigation;
+    const { params } = navigation.state;
 
     return {
       headerTitle: params.friendName,
@@ -45,9 +45,7 @@ class FriendDetailScene extends Component {
 FriendDetailScene.propTypes = {
   navigation: PropTypes.shape({
     navigate: PropTypes.func.isRequired,
-    state: PropTypes.objectOf({
-      params: PropTypes.string.isRequired,
-    }),
+    state: PropTypes.objectOf(PropTypes.string),
   }).isRequired,
 };
 
