@@ -58,7 +58,8 @@ class TouchableList extends Component {
             (<ListItem
               item={item}
               index={index}
-          fnOnpress={this.handlePress} />)} // eslint-disable-line
+              fnOnpress={this.handlePress}
+            />)}
           keyExtractor={(item, index) => index}
         />
       </View>
