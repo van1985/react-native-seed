@@ -1,0 +1,652 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "flexDirection": "column",
+    }
+  }
+>
+  <View
+    style={undefined}
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#333333",
+          "height": 200,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "row",
+            "paddingLeft": 30,
+            "paddingTop": 40,
+          }
+        }
+      >
+        <View>
+          <View
+            accessibilityComponentType={undefined}
+            accessibilityLabel={undefined}
+            accessibilityTraits={undefined}
+            accessible={true}
+            collapsable={undefined}
+            hitSlop={undefined}
+            isTVSelectable={true}
+            nativeID={undefined}
+            onLayout={undefined}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fff",
+                "borderColor": "rgba(0,0,0,0.2)",
+                "borderRadius": 50,
+                "borderWidth": 1,
+                "height": 100,
+                "justifyContent": "center",
+                "opacity": 1,
+                "width": 100,
+              }
+            }
+            testID={undefined}
+            tvParallaxProperties={undefined}
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../app/assets/silhouette200.png",
+                }
+              }
+              style={
+                Object {
+                  "borderRadius": 50,
+                  "height": 100,
+                  "width": 100,
+                }
+              }
+            />
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+              "paddingLeft": 10,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#ffffff",
+                },
+                Object {
+                  "fontSize": 22,
+                },
+                Object {
+                  "paddingBottom": 5,
+                },
+              ]
+            }
+          >
+            John Doe
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#ffffff",
+                },
+                Object {
+                  "fontSize": 18,
+                },
+                Object {
+                  "paddingBottom": 5,
+                },
+              ]
+            }
+          >
+            Web UI Developer
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#ffffff",
+                },
+                Object {
+                  "fontSize": 18,
+                },
+                Object {
+                  "paddingBottom": 5,
+                },
+              ]
+            }
+          >
+            john.doe@globant.com
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#ffffff",
+                },
+                Object {
+                  "fontSize": 18,
+                },
+              ]
+            }
+          >
+            Mar del Plata
+            , 
+            Argentina
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View />
+  <View
+    style={
+      Object {
+        "backgroundColor": "#403F40",
+        "height": 500,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#777",
+          "fontSize": 15,
+          "paddingLeft": 10,
+          "paddingTop": 10,
+        }
+      }
+    >
+      JOHN DOE
+       ALSO KNOWS
+    </Text>
+    <View
+      style={undefined}
+    >
+      <View
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "row",
+            "marginTop": 20,
+            "paddingLeft": 20,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "paddingTop": 8,
+              "width": 80,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#ffffff",
+                "fontSize": 24,
+                "paddingBottom": 10,
+              }
+            }
+          >
+            70
+            %
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "paddingLeft": 10,
+              "width": 400,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#ffffff",
+                "fontSize": 18,
+                "paddingBottom": 10,
+              }
+            }
+          >
+            Javascript
+          </Text>
+          <View
+            style={
+              Array [
+                Object {
+                  "width": 240,
+                },
+                Object {
+                  "backgroundColor": "#666666",
+                  "height": 6,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "width": 40,
+                  },
+                  Object {
+                    "backgroundColor": "#00AEEF",
+                    "height": 6,
+                  },
+                ]
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={undefined}
+    >
+      <View
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "row",
+            "marginTop": 20,
+            "paddingLeft": 20,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "paddingTop": 8,
+              "width": 80,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#ffffff",
+                "fontSize": 24,
+                "paddingBottom": 10,
+              }
+            }
+          >
+            20
+            %
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "paddingLeft": 10,
+              "width": 400,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#ffffff",
+                "fontSize": 18,
+                "paddingBottom": 10,
+              }
+            }
+          >
+            ES6
+          </Text>
+          <View
+            style={
+              Array [
+                Object {
+                  "width": 240,
+                },
+                Object {
+                  "backgroundColor": "#666666",
+                  "height": 6,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "width": 40,
+                  },
+                  Object {
+                    "backgroundColor": "#00AEEF",
+                    "height": 6,
+                  },
+                ]
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={undefined}
+    >
+      <View
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "row",
+            "marginTop": 20,
+            "paddingLeft": 20,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "paddingTop": 8,
+              "width": 80,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#ffffff",
+                "fontSize": 24,
+                "paddingBottom": 10,
+              }
+            }
+          >
+            25
+            %
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "paddingLeft": 10,
+              "width": 400,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#ffffff",
+                "fontSize": 18,
+                "paddingBottom": 10,
+              }
+            }
+          >
+            Webpack
+          </Text>
+          <View
+            style={
+              Array [
+                Object {
+                  "width": 240,
+                },
+                Object {
+                  "backgroundColor": "#666666",
+                  "height": 6,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "width": 40,
+                  },
+                  Object {
+                    "backgroundColor": "#00AEEF",
+                    "height": 6,
+                  },
+                ]
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={undefined}
+    >
+      <View
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "row",
+            "marginTop": 20,
+            "paddingLeft": 20,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "paddingTop": 8,
+              "width": 80,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#ffffff",
+                "fontSize": 24,
+                "paddingBottom": 10,
+              }
+            }
+          >
+            75
+            %
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "paddingLeft": 10,
+              "width": 400,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#ffffff",
+                "fontSize": 18,
+                "paddingBottom": 10,
+              }
+            }
+          >
+            ReactJS
+          </Text>
+          <View
+            style={
+              Array [
+                Object {
+                  "width": 240,
+                },
+                Object {
+                  "backgroundColor": "#666666",
+                  "height": 6,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "width": 40,
+                  },
+                  Object {
+                    "backgroundColor": "#00AEEF",
+                    "height": 6,
+                  },
+                ]
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={undefined}
+    >
+      <View
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "row",
+            "marginTop": 20,
+            "paddingLeft": 20,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "paddingTop": 8,
+              "width": 80,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#ffffff",
+                "fontSize": 24,
+                "paddingBottom": 10,
+              }
+            }
+          >
+            60
+            %
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "paddingLeft": 10,
+              "width": 400,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#ffffff",
+                "fontSize": 18,
+                "paddingBottom": 10,
+              }
+            }
+          >
+            Redux
+          </Text>
+          <View
+            style={
+              Array [
+                Object {
+                  "width": 240,
+                },
+                Object {
+                  "backgroundColor": "#666666",
+                  "height": 6,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "width": 40,
+                  },
+                  Object {
+                    "backgroundColor": "#00AEEF",
+                    "height": 6,
+                  },
+                ]
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

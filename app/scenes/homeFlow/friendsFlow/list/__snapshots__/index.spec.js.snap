@@ -1,0 +1,617 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#000000",
+    }
+  }
+>
+  <View>
+    <RCTScrollView
+      data={
+        Array [
+          Array [
+            Object {
+              "name": "Full Name",
+              "value": "Noam Chomsky",
+            },
+            Object {
+              "name": "Telephone",
+              "value": "45678532",
+            },
+            Object {
+              "name": "Email",
+              "value": "n.chomsky@globant.com",
+            },
+            Object {
+              "name": "Technology",
+              "value": "Web UI Developer",
+            },
+            Object {
+              "name": "Seniority",
+              "value": "SSr",
+            },
+            Object {
+              "name": "City",
+              "value": "Mar del Plata",
+            },
+            Object {
+              "name": "State",
+              "value": "Buenos Aires",
+            },
+            Object {
+              "name": "Country",
+              "value": "Aargentina",
+            },
+            Object {
+              "name": "Birthdate",
+              "value": "02/12/1985",
+            },
+            Object {
+              "name": "Legal ID",
+              "value": "29001090",
+            },
+            Object {
+              "name": "Studio",
+              "value": "UI Engineering",
+            },
+          ],
+          Array [
+            Object {
+              "name": "Full Name",
+              "value": "René Descartes",
+            },
+            Object {
+              "name": "Telephone",
+              "value": "45678532",
+            },
+            Object {
+              "name": "Email",
+              "value": "n.chomsky@globant.com",
+            },
+            Object {
+              "name": "Technology",
+              "value": "Web UI Developer",
+            },
+            Object {
+              "name": "Seniority",
+              "value": "SSr",
+            },
+            Object {
+              "name": "City",
+              "value": "Mar del Plata",
+            },
+            Object {
+              "name": "State",
+              "value": "Buenos Aires",
+            },
+            Object {
+              "name": "Country",
+              "value": "Aargentina",
+            },
+            Object {
+              "name": "Birthdate",
+              "value": "02/12/1985",
+            },
+            Object {
+              "name": "Legal ID",
+              "value": "29001090",
+            },
+            Object {
+              "name": "Studio",
+              "value": "UI Engineering",
+            },
+          ],
+          Array [
+            Object {
+              "name": "Full Name",
+              "value": "Aristotle",
+            },
+            Object {
+              "name": "Telephone",
+              "value": "45678532",
+            },
+            Object {
+              "name": "Email",
+              "value": "n.chomsky@globant.com",
+            },
+            Object {
+              "name": "Technology",
+              "value": "Web UI Developer",
+            },
+            Object {
+              "name": "Seniority",
+              "value": "SSr",
+            },
+            Object {
+              "name": "City",
+              "value": "Mar del Plata",
+            },
+            Object {
+              "name": "State",
+              "value": "Buenos Aires",
+            },
+            Object {
+              "name": "Country",
+              "value": "Aargentina",
+            },
+            Object {
+              "name": "Birthdate",
+              "value": "02/12/1985",
+            },
+            Object {
+              "name": "Legal ID",
+              "value": "29001090",
+            },
+            Object {
+              "name": "Studio",
+              "value": "UI Engineering",
+            },
+          ],
+        ]
+      }
+      disableVirtualization={false}
+      getItem={[Function]}
+      getItemCount={[Function]}
+      horizontal={false}
+      initialNumToRender={10}
+      keyExtractor={[Function]}
+      maxToRenderPerBatch={10}
+      numColumns={1}
+      onContentSizeChange={[Function]}
+      onEndReachedThreshold={2}
+      onLayout={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      updateCellsBatchingPeriod={50}
+      viewabilityConfigCallbackPairs={Array []}
+      windowSize={21}
+    >
+      <View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityComponentType={undefined}
+            accessibilityLabel={undefined}
+            accessibilityTraits={undefined}
+            accessible={true}
+            collapsable={undefined}
+            hitSlop={undefined}
+            isTVSelectable={true}
+            nativeID={undefined}
+            onLayout={undefined}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#1E1E1E",
+                "display": "flex",
+                "flex": 1,
+                "flexDirection": "row",
+                "height": 90,
+                "opacity": 1,
+                "padding": 18,
+              }
+            }
+            testID={undefined}
+            tvParallaxProperties={undefined}
+          >
+            <View>
+              <View
+                accessibilityComponentType={undefined}
+                accessibilityLabel={undefined}
+                accessibilityTraits={undefined}
+                accessible={true}
+                collapsable={undefined}
+                hitSlop={undefined}
+                isTVSelectable={true}
+                nativeID={undefined}
+                onLayout={undefined}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#fff",
+                    "borderColor": "rgba(0,0,0,0.2)",
+                    "borderRadius": 30,
+                    "borderWidth": 1,
+                    "height": 60,
+                    "justifyContent": "center",
+                    "opacity": 1,
+                    "width": 60,
+                  }
+                }
+                testID={undefined}
+                tvParallaxProperties={undefined}
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../app/assets/silhouette200.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "borderRadius": 30,
+                      "height": 60,
+                      "width": 60,
+                    }
+                  }
+                />
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "paddingLeft": 40,
+                  "paddingTop": 5,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontSize": 16,
+                  }
+                }
+              >
+                Noam Chomsky
+              </Text>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#FFFFFF",
+                    "paddingTop": 4,
+                  }
+                }
+              >
+                Web UI Developer
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "justifyContent": "flex-end",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../app/assets/icons8-adelante-24.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 30,
+                    "width": 30,
+                  }
+                }
+              />
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityComponentType={undefined}
+            accessibilityLabel={undefined}
+            accessibilityTraits={undefined}
+            accessible={true}
+            collapsable={undefined}
+            hitSlop={undefined}
+            isTVSelectable={true}
+            nativeID={undefined}
+            onLayout={undefined}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#2F2F2F",
+                "display": "flex",
+                "flex": 1,
+                "flexDirection": "row",
+                "height": 90,
+                "opacity": 1,
+                "padding": 18,
+              }
+            }
+            testID={undefined}
+            tvParallaxProperties={undefined}
+          >
+            <View>
+              <View
+                accessibilityComponentType={undefined}
+                accessibilityLabel={undefined}
+                accessibilityTraits={undefined}
+                accessible={true}
+                collapsable={undefined}
+                hitSlop={undefined}
+                isTVSelectable={true}
+                nativeID={undefined}
+                onLayout={undefined}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#fff",
+                    "borderColor": "rgba(0,0,0,0.2)",
+                    "borderRadius": 30,
+                    "borderWidth": 1,
+                    "height": 60,
+                    "justifyContent": "center",
+                    "opacity": 1,
+                    "width": 60,
+                  }
+                }
+                testID={undefined}
+                tvParallaxProperties={undefined}
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../app/assets/silhouette200.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "borderRadius": 30,
+                      "height": 60,
+                      "width": 60,
+                    }
+                  }
+                />
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "paddingLeft": 40,
+                  "paddingTop": 5,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontSize": 16,
+                  }
+                }
+              >
+                René Descartes
+              </Text>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#FFFFFF",
+                    "paddingTop": 4,
+                  }
+                }
+              >
+                Web UI Developer
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "justifyContent": "flex-end",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../app/assets/icons8-adelante-24.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 30,
+                    "width": 30,
+                  }
+                }
+              />
+            </View>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityComponentType={undefined}
+            accessibilityLabel={undefined}
+            accessibilityTraits={undefined}
+            accessible={true}
+            collapsable={undefined}
+            hitSlop={undefined}
+            isTVSelectable={true}
+            nativeID={undefined}
+            onLayout={undefined}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#1E1E1E",
+                "display": "flex",
+                "flex": 1,
+                "flexDirection": "row",
+                "height": 90,
+                "opacity": 1,
+                "padding": 18,
+              }
+            }
+            testID={undefined}
+            tvParallaxProperties={undefined}
+          >
+            <View>
+              <View
+                accessibilityComponentType={undefined}
+                accessibilityLabel={undefined}
+                accessibilityTraits={undefined}
+                accessible={true}
+                collapsable={undefined}
+                hitSlop={undefined}
+                isTVSelectable={true}
+                nativeID={undefined}
+                onLayout={undefined}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#fff",
+                    "borderColor": "rgba(0,0,0,0.2)",
+                    "borderRadius": 30,
+                    "borderWidth": 1,
+                    "height": 60,
+                    "justifyContent": "center",
+                    "opacity": 1,
+                    "width": 60,
+                  }
+                }
+                testID={undefined}
+                tvParallaxProperties={undefined}
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../app/assets/silhouette200.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "borderRadius": 30,
+                      "height": 60,
+                      "width": 60,
+                    }
+                  }
+                />
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "paddingLeft": 40,
+                  "paddingTop": 5,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#FFFFFF",
+                    "fontSize": 16,
+                  }
+                }
+              >
+                Aristotle
+              </Text>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#FFFFFF",
+                    "paddingTop": 4,
+                  }
+                }
+              >
+                Web UI Developer
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "justifyContent": "flex-end",
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../app/assets/icons8-adelante-24.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 30,
+                    "width": 30,
+                  }
+                }
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;

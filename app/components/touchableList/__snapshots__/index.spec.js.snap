@@ -1,18 +1,30 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<View
-  style={undefined}
->
+<View>
   <RCTScrollView
     data={
       Array [
-        Object {
-          "label": "test",
-        },
-        Object {
-          "label": "test2",
-        },
+        Array [
+          Object {
+            "name": "Full Name",
+            "value": "Noam Chomsky",
+          },
+          Object {
+            "name": "Technology",
+            "value": "Web UI Developer",
+          },
+        ],
+        Array [
+          Object {
+            "name": "Full Name",
+            "value": "Noam Chomsky",
+          },
+          Object {
+            "name": "Technology",
+            "value": "Web UI Developer",
+          },
+        ],
       ]
     }
     disableVirtualization={false}
@@ -60,19 +72,127 @@ exports[`renders correctly 1`] = `
           onStartShouldSetResponder={[Function]}
           style={
             Object {
+              "backgroundColor": "#1E1E1E",
+              "display": "flex",
+              "flex": 1,
+              "flexDirection": "row",
+              "height": 90,
               "opacity": 1,
+              "padding": 18,
             }
           }
           testID={undefined}
           tvParallaxProperties={undefined}
         >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
+          <View>
+            <View
+              accessibilityComponentType={undefined}
+              accessibilityLabel={undefined}
+              accessibilityTraits={undefined}
+              accessible={true}
+              collapsable={undefined}
+              hitSlop={undefined}
+              isTVSelectable={true}
+              nativeID={undefined}
+              onLayout={undefined}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#fff",
+                  "borderColor": "rgba(0,0,0,0.2)",
+                  "borderRadius": 30,
+                  "borderWidth": 1,
+                  "height": 60,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 60,
+                }
+              }
+              testID={undefined}
+              tvParallaxProperties={undefined}
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../app/assets/silhouette200.png",
+                  }
+                }
+                style={
+                  Object {
+                    "borderRadius": 30,
+                    "height": 60,
+                    "width": 60,
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "paddingLeft": 40,
+                "paddingTop": 5,
+              }
+            }
           >
-            test
-          </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 16,
+                }
+              }
+            >
+              Noam Chomsky
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                  "paddingTop": 4,
+                }
+              }
+            >
+              Web UI Developer
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "flexDirection": "row",
+                "justifyContent": "flex-end",
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../app/assets/icons8-adelante-24.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 30,
+                  "width": 30,
+                }
+              }
+            />
+          </View>
         </View>
       </View>
       <View
@@ -97,19 +217,127 @@ exports[`renders correctly 1`] = `
           onStartShouldSetResponder={[Function]}
           style={
             Object {
+              "backgroundColor": "#2F2F2F",
+              "display": "flex",
+              "flex": 1,
+              "flexDirection": "row",
+              "height": 90,
               "opacity": 1,
+              "padding": 18,
             }
           }
           testID={undefined}
           tvParallaxProperties={undefined}
         >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
+          <View>
+            <View
+              accessibilityComponentType={undefined}
+              accessibilityLabel={undefined}
+              accessibilityTraits={undefined}
+              accessible={true}
+              collapsable={undefined}
+              hitSlop={undefined}
+              isTVSelectable={true}
+              nativeID={undefined}
+              onLayout={undefined}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#fff",
+                  "borderColor": "rgba(0,0,0,0.2)",
+                  "borderRadius": 30,
+                  "borderWidth": 1,
+                  "height": 60,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 60,
+                }
+              }
+              testID={undefined}
+              tvParallaxProperties={undefined}
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../app/assets/silhouette200.png",
+                  }
+                }
+                style={
+                  Object {
+                    "borderRadius": 30,
+                    "height": 60,
+                    "width": 60,
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "paddingLeft": 40,
+                "paddingTop": 5,
+              }
+            }
           >
-            test2
-          </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 16,
+                }
+              }
+            >
+              Noam Chomsky
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                  "paddingTop": 4,
+                }
+              }
+            >
+              Web UI Developer
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "flexDirection": "row",
+                "justifyContent": "flex-end",
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../app/assets/icons8-adelante-24.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 30,
+                  "width": 30,
+                }
+              }
+            />
+          </View>
         </View>
       </View>
     </View>
