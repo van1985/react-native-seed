@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={undefined}
+>
+  <View
+    style={
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+        "marginTop": 20,
+        "paddingLeft": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "paddingTop": 8,
+          "width": 80,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#ffffff",
+            "fontSize": 24,
+            "paddingBottom": 10,
+          }
+        }
+      >
+        80
+        %
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingLeft": 10,
+          "width": 400,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#ffffff",
+            "fontSize": 18,
+            "paddingBottom": 10,
+          }
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "width": 240,
+            },
+            Object {
+              "backgroundColor": "#666666",
+              "height": 6,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "width": 40,
+              },
+              Object {
+                "backgroundColor": "#00AEEF",
+                "height": 6,
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+  </View>
+</View>
+`;

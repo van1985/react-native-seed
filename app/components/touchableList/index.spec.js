@@ -1,23 +1,37 @@
 import React from 'react';
+import renderer from 'react-test-renderer';
 import TouchableList from './index';
 
-import renderer from 'react-test-renderer';
 
-const sampleData = [
-  {
-    label: 'test'
-  },
-  {
-    label: 'test2'
-  }
+const sampleData =
+[
+  [
+    {
+      name: 'Full Name',
+      value: 'Noam Chomsky',
+    },
+    {
+      name: 'Technology',
+      value: 'Web UI Developer',
+    },
+  ],
+  [
+    {
+      name: 'Full Name',
+      value: 'Noam Chomsky',
+    },
+    {
+      name: 'Technology',
+      value: 'Web UI Developer',
+    },
+  ],
 ];
 
 test('renders correctly', () => {
-  const tree = renderer.create(
-    <TouchableList
-      data={sampleData}
-      onPress={()=>{}}
-    />
-  ).toJSON();
+  const mockCallBack = jest.fn();
+  const tree = renderer.create(<TouchableList
+    data={sampleData}
+    onPress={() => { mockCallBack; }}
+  />).toJSON();
   expect(tree).toMatchSnapshot();
 });

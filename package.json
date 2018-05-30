@@ -5,6 +5,8 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
+    "test-coverage": "jest --coverage --collectCoverageFrom=app/**/*.{js,jsx} --collectCoverageFrom=!app/translations/*.{js,jsx} --colors",
+    "update-snapshot": "jest --updateSnapshot",
     "prettier": "prettier --write",
     "precommit": "lint-staged",
     "ios": "react-native run-ios",
@@ -13,6 +15,7 @@
   "dependencies": {
     "adb": "^0.2.0",
     "es6-promise": "^4.2.4",
+    "eslint-plugin-jest": "^21.17.0",
     "prop-types": "^15.6.1",
     "react": "^16.0.0-alpha.12",
     "react-native": "^0.50.3",
